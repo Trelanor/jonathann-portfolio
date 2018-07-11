@@ -37,18 +37,21 @@
 
        <article class="skills">
            <h2>Skills</h2>
+           @include('skills')
        </article>
 
        <figure class="stone"></figure>
 
        <article class="formation">
            <h2>Training</h2>
+           @include('training')
        </article>
 
        <figure class="bretagne"></figure>
 
        <article class="contact">
            <h2>If you want contact me</h2>
+           @include('contact')
        </article>
     </body>
 </html>
