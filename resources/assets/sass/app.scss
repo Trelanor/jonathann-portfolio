@@ -18,7 +18,6 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-
 figure.snip1091 {
   font-family: 'Raleway', Arial, sans-serif;
   background-image: url('/img/giant.png');
@@ -30,8 +29,8 @@ figure.snip1091 {
   height: 100vh;
   overflow: hidden;
   text-align: center;
-
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  margin-bottom: -7px;
 }
 
 figure.snip1091 * {
@@ -69,6 +68,12 @@ figure.snip1091 figcaption h2 {
 
 figure.snip1091 figcaption h2 span {
   font-weight: 800;
+}
+
+figure.snip1091 figcaption p{
+  color: white;
+  font-style: arial;
+  font-size: 1.5rem;
 }
 
 figure.snip1091 figcaption:before,
@@ -112,4 +117,108 @@ figure.snip1091.hover figcaption:before,
 figure.snip1091:hover figcaption:after,
 figure.snip1091.hover figcaption:after {
   width: 200%;
+}
+
+.presentation{
+  background: black;
+  padding: 20px;
+}
+
+.presentation h2{
+  text-align: center;
+  color:white;
+  font-size: 2rem;
+}
+
+.presentation p{
+  font-style: arial;
+  font-size: 1.1rem;
+  color: white;
+  text-align: center;
+}
+
+.space{
+  background-image: url('/img/space_1.png');
+  background-size: cover;
+  background-position: left center;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.projets{
+  padding: 20px;
+}
+
+.projets h2{
+  text-align: center;
+}
+
+.projets p{
+  text-align: center;
+}
+
+.mountain{
+  background-image: url('/img/lake-moraine.png');
+  background-size: cover;
+  background-position: left center;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+ 
+.skills{
+  background: black;
+}
+
+.skills h2{
+  color: white;
+  text-align: center;
+}
+
+.stone{
+  background-image: url('/img/lusen.png');
+  background-size: cover;
+  background-position: left center;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.formation h2{
+  text-align: center;
+}
+
+.bretagne{
+  background-image: url('/img/saint-quai-portrieux.png');
+  background-size: cover;
+  background-position: left center;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.contact{
+  background: black;
+  color: white;
+}
+
+.contact h2{
+  text-align: center;
 }

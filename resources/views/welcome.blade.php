@@ -16,8 +16,39 @@
             <figure class="snip1091">
                 <figcaption>
                     <h2>Jonathan  <span>NICOLAS</span></h2>
+                    <p>Welcome on my portfolio page.</p>
                 </figcaption>
             </figure>
        </header>
+
+       <article class="presentation">
+            <h2>About me</h2>
+            @include('presentation')
+       </article>
+
+       <figure class="space"></figure>
+
+       <article class="projets">
+           <h2>Projects</h2>
+            @include('projects')
+       </article>
+
+       <figure class="mountain"></figure>
+
+       <article class="skills">
+           <h2>Skills</h2>
+       </article>
+
+       <figure class="stone"></figure>
+
+       <article class="formation">
+           <h2>Training</h2>
+       </article>
+
+       <figure class="bretagne"></figure>
+
+       <article class="contact">
+           <h2>If you want contact me</h2>
+       </article>
     </body>
 </html>
