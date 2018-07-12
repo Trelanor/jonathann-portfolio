@@ -1,3 +1,2 @@
-
-<p>Hello!</p>
-<p>My name is Jonathann NICOLAS and I am a junior web developper. I am 30 years old and how you can see, I love mountain bike specially the mountain bike downhill.</p>
+<h2>Hello and welcome</h2>
+    <p>I am Jonathan NICOLAS and i am a junior web developper. How you can see, I love mountain bike and specially downhill.</p>
