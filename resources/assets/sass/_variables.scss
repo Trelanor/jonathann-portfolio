@@ -6,3 +6,15 @@ $body-bg: #f5f8fa;
 $font-family-sans-serif: "Raleway", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+$duration: 1s;
+$ease: cubic-bezier(.6,.0,.2,1);
+
+$offsetSize: 10%;
+$contentOffset: $offsetSize * 1.4;
+/* @offsetSize * 2 means the content won't appear to move at all. Set to a lower value for squishing effects. */
+
+$textColor: #FFF;
+$overlayColor: #000;
+$highlightColor: #FFC12D;
+$borderColor: $highlightColor;
