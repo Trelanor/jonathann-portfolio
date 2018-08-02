@@ -42,43 +42,17 @@
                 @include('projects')
             </article>
             
-            <div class="parallax4"></div>                    
+            <div class="parallax4"></div>
+            
+            <article>
+                @include('training')
+            </article>
 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                
-                    <div class="parallax5">
+            <div class="parallax5"></div>
 
-                    </div>
+            <section>
+                @include('contact')
+            </section>
 
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit totam! Assumenda tempora eveniet quos dolor. Earum ipsum dolor provident nihil omnis! Aspernatur quo animi delectus quam cumque id accusamus!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati aperiam quos culpa, in explicabo eveniet nostrum ad magni ipsa similique quasi. Odio expedita id sapiente consectetur doloribus iste quam.</p>
-    }
     </body>
 </html>

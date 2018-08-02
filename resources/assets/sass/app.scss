@@ -264,7 +264,7 @@ figure.snip1190.hover .square div:after {
 
 .panels {
   width: 100%;
-  height: 600px;
+  height: 500px;
   overflow: hidden;
   background: $overlayColor;
   pointer-events: none;
@@ -275,8 +275,8 @@ figure.snip1190.hover .square div:after {
   justify-content: center;
   align-items: stretch;  
   height: 100%;
-  width: 120%;
-  margin: 0 -($offsetSize);
+  width: 110%;
+  margin: 5 -($offsetSize);
   visibility: hidden; 
 }
 
@@ -468,7 +468,7 @@ figure.snip1190.hover .square div:after {
   text-transform: uppercase;
   font-size: 2.5em;
   letter-spacing: 0.1em;
-  margin-top: 150px;
+  margin-top: 250px;
   
   @media (max-width: 800px) {
     font-size: 1.5em;
@@ -478,3 +478,56 @@ figure.snip1190.hover .square div:after {
   }
 }
 
+/*training*/
+
+h1{
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+}
+.training{
+  background: white;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+    h2{
+      font-size: 2rem;
+      color: black;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    p{
+      color: black;
+      text-align: center;
+      font-size: 1.3rem;
+    }
+}
+
+/*contact*/
+
+.contact{
+  background: black;
+  padding: 50px;
+    h2{
+      font-size: 2rem;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    p{
+      color: white;
+      text-align: center;
+      font-size: 1.3rem;
+    }
+}
+
+.training{
+  p{
+    display: block;
+  }
+
+  .logo-acs{
+    background: black;
+    margin-left: 50px;
+  }
+}
