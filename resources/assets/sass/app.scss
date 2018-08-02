@@ -533,7 +533,13 @@ h1{
 }
 
 .contact{
+  text-align: center;
+
   label{
     color: white;
+  }
+
+  button{
+    margin: 25px;
   }
 }

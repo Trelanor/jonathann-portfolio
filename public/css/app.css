@@ -11051,7 +11051,15 @@ h1 {
   margin-left: 50px;
 }
 
+.contact {
+  text-align: center;
+}
+
 .contact label {
   color: white;
+}
+
+.contact button {
+  margin: 25px;
 }
 
