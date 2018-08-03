@@ -11052,14 +11052,12 @@ h1 {
 }
 
 .contact {
-  text-align: center;
-}
-
-.contact label {
   color: white;
+  text-align: center;
 }
 
 .contact button {
   margin: 25px;
+  padding: 5px;
 }
 
