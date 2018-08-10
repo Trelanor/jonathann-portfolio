@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactMessage;
+use Illuminate\Routing\Redirector;
 
 class UsersController extends Controller
 {
@@ -24,6 +27,7 @@ class UsersController extends Controller
         $contact->save();
 
         $this->sendEmail($contact);
+        return redirect()->route('home');
         
     }
 
@@ -59,26 +63,11 @@ class UsersController extends Controller
         
         if(empty($errors)) {
             //si le formulaire est validé
-            $to = env('MAIL_TO');
-            $headers ='From: "Nom_du_destinataire"$email'."\n";
-            $headers .='Content-Type: text/html; charset="utf-8"'."\n";
-            
-            $msg = 'nom: '.$nom;
-            $msg .= 'prenom: '.$prenom;
-            $msg .= 'sujet: '.$sujet;
-            $msg .= 'email: '.$email;
-            $msg .= 'message: '.$message;
-            
-        
-            if(mail($nom, $prenom, $sujet, $msg, $headers))
-            {
-                echo '<script languag="javascript">alert("Le message a été correctement envoyé");</script>';
-            }
-            else
-            {
-                echo '<script languag="javascript">alert("Le message n\'a pas pu être envoyé");</script>';
-            }			
+
+            Mail::to('trelanor@gmail.com')->send(new ContactMessage($contact));        
         }
+
+        
     }
 }
 

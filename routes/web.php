@@ -11,12 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// FRONT
+Route::get('/', 'HomeController@index')->name('home');
 
+// BACK
 Route::get('users', 'UsersController@create');
 Route::post('users', 'UsersController@store');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+// Route::get('home', 'HomeController@index');
