@@ -53,6 +53,6 @@
             <section>
                 @include('contact')
             </section>
-
+       
     </body>
 </html>

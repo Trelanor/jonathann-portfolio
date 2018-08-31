@@ -534,6 +534,21 @@ h1{
 
 .contact{
   color: white;
-  text-align: center;
 
+
+  .contain{
+    display: flex;
+    padding-left: 33%;
+  }
+  .champs{
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+  }
+
+  button{
+    margin-top: 1%;
+    margin-left: 50%;
+  }
 }
+
