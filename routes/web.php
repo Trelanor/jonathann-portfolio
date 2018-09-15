@@ -11,15 +11,16 @@
 |
 */
 
-// FRONT
-Route::get('/', 'HomeController@index')->name('home');
+
 
 // BACK
 Route::get('users', 'UsersController@create');
 Route::post('users', 'UsersController@store');
+
 Auth::routes();
 
+Route::get('admin/dashboard', 'AdminController@dashboard');
 
-
-
-// Route::get('home', 'HomeController@index');
+// FRONT
+Route::get('/', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
